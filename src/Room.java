@@ -1,8 +1,8 @@
 public class Room {
     private String room;
-    private int numberOfBed;
-    private int price;
-    private Boolean balcony;
+    private Integer numberOfBed;
+    private Integer price;
+    private Boolean hasBalcony;
     private Boolean sea;
 
 
@@ -11,7 +11,7 @@ public class Room {
         this.room = room;
         this.numberOfBed = numberOfBed;
         this.price = price;
-        this.balcony = balcony;
+        this.hasBalcony = balcony;
         this.sea = sea;
     }
     //endregion
@@ -42,12 +42,12 @@ public class Room {
         this.price = price;
     }
 
-    public Boolean getBalcony() {
-        return balcony;
+    public Boolean getHasBalcony() {
+        return hasBalcony;
     }
 
-    public void setBalcony(Boolean balcony) {
-        this.balcony = balcony;
+    public void setBalcony(Boolean hasBalcony) {
+        this.hasBalcony = hasBalcony;
     }
 
     public Boolean getSea() {
